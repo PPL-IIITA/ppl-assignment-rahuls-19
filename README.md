@@ -26,3 +26,5 @@ All codes submitted are build and tested on Netbeans IDE 8.2
 \Question5\build\classes>java question5.Question5
 
 \Question6\build\classes>java Question4.Question6
+
+\Question7\build\classes>java question5.Question7
