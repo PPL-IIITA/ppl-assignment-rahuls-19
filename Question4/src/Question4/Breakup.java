@@ -69,10 +69,8 @@ public class Breakup
 		buff.close();
                  File list = new File("breakup.txt");
          FileWriter Out = new FileWriter(list);
-            int key;
-         for(key = 1;key<10;key++){
-         Out.write(key + "th day of calender" + "\n");
-	for (i = key;i <10 ;i++)
+           
+	for (i = 0;i <10 ;i++)
 	{
 		for (j = 0;j < Constants.NO_OF_BOYS;j++)
 		{
@@ -127,7 +125,7 @@ public class Breakup
 		}
 		selectIndex = -1;
 
-	}
+	
         }
         Out.close(); 
 
