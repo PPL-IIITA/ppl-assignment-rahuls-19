@@ -69,7 +69,10 @@ public class Breakup
 		buff.close();
                  File list = new File("breakup.txt");
          FileWriter Out = new FileWriter(list);
-	for (i = 0;i < Constants.NO_OF_GIRLS;i++)
+            int key;
+         for(key = 1;key<10;key++){
+         Out.write(key + "th day of calender" + "\n");
+	for (i = key;i <10 ;i++)
 	{
 		for (j = 0;j < Constants.NO_OF_BOYS;j++)
 		{
@@ -125,6 +128,7 @@ public class Breakup
 		selectIndex = -1;
 
 	}
+        }
         Out.close(); 
 
 	}
@@ -371,6 +375,10 @@ public class Breakup
                 Logger.getLogger(Breakup.class.getName()).log(Level.SEVERE, null, ex);
             }
 	}
+
+    
+
+    
 
     
 
