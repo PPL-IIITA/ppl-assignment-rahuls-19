@@ -14,7 +14,7 @@ All codes submitted are build and tested on Netbeans IDE 8.2
 ## Command for command prompt in Windows :
 
 
-
+```
 \Question1\build\classes>java ppl_assign.Ppl_assign
 
 \Question2\build\classes>java ppl_assign2.Ppl_assign2
@@ -28,3 +28,4 @@ All codes submitted are build and tested on Netbeans IDE 8.2
 \Question6\build\classes>java Question4.Question6
 
 \Question7\build\classes>java question5.Question5
+```
